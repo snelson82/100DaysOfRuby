@@ -1,5 +1,5 @@
 # 100DaysOfRuby
 
-![Ruby logo](/images/ruby_gem.png)
+[![Follow #100DaysOfRuby](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/100daysofruby)
 
-Daily summary while studying Ruby and Ruby On Rails
+Attempting to RT and post daily summaries via #100DaysOfRuby. Follow for updates!
