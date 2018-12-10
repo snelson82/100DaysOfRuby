@@ -1,6 +1,6 @@
 # Summary
 
-[**Dec 7, 2018**](day_1.rb) - Reviewed the management of files and directories, as well as reading/writing files.
+[Day 1](day_1.rb) - Reviewed the management of files and directories, as well as reading/writing files.
 
 ## Topics Studied
 
