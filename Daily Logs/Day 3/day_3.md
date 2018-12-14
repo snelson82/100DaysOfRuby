@@ -6,7 +6,9 @@ One nice change was the fact that Terminal now opens immediately instead of the 
 
 ## Topics Studied
 
-- topic
+- Rails
+- RVM & Ruby version errors
+- Active Record
 
 ## Resources Used
 
