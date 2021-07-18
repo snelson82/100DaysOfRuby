@@ -1,3 +1,5 @@
+[![wakatime](https://wakatime.com/badge/github/snelson82/100DaysOfRuby.svg)](https://wakatime.com/badge/github/snelson82/100DaysOfRuby)
+
 # 100DaysOfRuby
 
 [![Follow #100DaysOfRuby](https://img.shields.io/badge/100daysofruby-%231DA1F2.svg?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/100daysofruby?ref_src=twsrc%5Etfw)
