@@ -1,4 +1,6 @@
-# Summary
+# Day 1
+
+## Summary
 
 [Day 1](day_1.rb) - Reviewed the management of files and directories, as well as reading/writing files.
 
@@ -24,4 +26,4 @@
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Icons8_logo.jpg" width="64px"> | <p>Images were pulled from [Icons8](https://icons8.com/icons)</p> |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 
-[Continue to Day 2](/Daily%20Logs/D2/day_2.md)
+[Continue to Day 2](./../Day%202/README.md#Summary)
