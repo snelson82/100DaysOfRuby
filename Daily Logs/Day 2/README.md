@@ -1,4 +1,6 @@
-# Summary
+# Day 2
+
+## Summary
 
 Installed Rails and fixed Ruby/OS issues along the way. Also updated local scripts with refactored code, made easier by VS Code's "find & replace across multiple files"
 

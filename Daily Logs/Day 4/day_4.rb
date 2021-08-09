@@ -1,12 +1,16 @@
 # require 'byebug'
 require 'fileutils'
 
-# Set daily template string
-SNIPPET = "# Summary\n\n## Topics Studied\n\n- topic\n\n## Resources Used\n\n[resource](resource_link)\n\n## Links to Projects & Notes\n\n[project_or_gist](project_or_gist_link)\n\n[Continue to Day #](/Daily%20Logs/Day #/day_#.md)".freeze
-
 # Set "days" that need directories & files created. Example creates the next "day" by checking existing directories directly nested under the "Daily Logs" diretory and the iterating to the next largest integer
 ## day_range needs to be an Array to allow for iteration and flexibility (in case you'd like to create 10, 20, etc, or all 100 days' folders and files at once)
 last_day_updated = (Dir.children('Daily Logs') - ['.DS_Store']).sort!.map { |day| day.gsub!('Day ', '').to_i }.max
+
+## Simple example to only create the next Day's files
+day_range = [last_day_updated + 1]
+next_day = last_day_updated + 2
+
+# Set daily template string
+SNIPPET = "# Day #{last_day_updated + 1}\n\n## Summary\n\n## Topics Studied\n\n- topic\n\n## Resources Used\n\n[resource](resource_link)\n\n## Links to Projects & Notes\n\n[project_or_gist](project_or_gist_link)\n\n[Continue to Day #{next_day}](/Daily%20Logs/Day%20#{next_day}/day_#{next_day}.md#Summary)\n".freeze
 
 ## day_range = (1..10).to_a is a good example of quickly creating an array from a given range <first_number_to_include..last_number_to_include>
 ### day_range = (1..10).to_a (creates Day 1 - Day 10)
@@ -21,9 +25,6 @@ last_day_updated = (Dir.children('Daily Logs') - ['.DS_Store']).sort!.map { |day
 ###             else
 ###               raise "\nError: The last 'Day' logged was Day #{last_day_updated}.\n- Update the day_range IF statement for the desired ranges\n-- The example range only works for up to Day 19"
 ###             end
-
-## Simple example to only create the next Day's files
-day_range = [last_day_updated + 1]
 
 # take in an array
 def create_daily_files(arr)

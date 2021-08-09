@@ -1,4 +1,6 @@
-# Summary
+# Day 4
+
+## Summary
 
 - Restarting the 100 days of code on Day 4
 - Began using Ruby version 3.0.0
