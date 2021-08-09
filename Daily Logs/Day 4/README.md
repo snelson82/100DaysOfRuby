@@ -34,4 +34,4 @@
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Icons8_logo.jpg" width="64px"> | <p>Images were pulled from [Icons8](https://icons8.com/icons)</p> |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 
-[Continue to Day 5](../Day%205/README.md)
+[Continue to Day 5](./../Day%205/README.md)

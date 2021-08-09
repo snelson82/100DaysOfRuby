@@ -25,3 +25,5 @@ One nice change was the fact that Terminal now opens immediately instead of the 
 ## Links to Projects & Notes
 
 [Thoth - Rails Practice app](https://github.com/snelson82/thoth)
+
+[Continue to Day 4](./../Day%204/README.md)
