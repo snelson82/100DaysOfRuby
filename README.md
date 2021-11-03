@@ -1,7 +1,6 @@
-[![wakatime](https://wakatime.com/badge/github/snelson82/100DaysOfRuby.svg)](https://wakatime.com/badge/github/snelson82/100DaysOfRuby)
-
 # 100DaysOfRuby
 
+[![wakatime](https://wakatime.com/badge/user/8766f998-501b-406c-b0f5-94a52aa72f39/project/64f72e52-f4ec-4ee6-a29a-b27ed433631e.svg)](https://wakatime.com/badge/user/8766f998-501b-406c-b0f5-94a52aa72f39/project/64f72e52-f4ec-4ee6-a29a-b27ed433631e)
 [![Follow #100DaysOfRuby](https://img.shields.io/badge/100daysofruby-%231DA1F2.svg?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/100daysofruby?ref_src=twsrc%5Etfw)
 ![Last Commit](https://img.shields.io/github/last-commit/snelson82/100daysofruby?style=flat-square)
 ![Top Language](https://img.shields.io/github/languages/top/snelson82/100DaysOfRuby?style=flat-square)
