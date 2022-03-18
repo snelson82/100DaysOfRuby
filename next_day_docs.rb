@@ -8,7 +8,7 @@ last_day_updated = (Dir.children('Daily Logs') - ['.DS_Store']).sort!.map { |day
 day_range = [last_day_updated + 1]
 
 # Set daily template string
-SNIPPET = "# Summary\n\n## Topics Studied\n\n- topic\n\n## Resources Used\n\n[resource](resource_link)\n\n## Links to Projects & Notes\n\n[project_or_gist](project_or_gist_link)\n\n[Continue to Day #](./../Day%20#{day_range}/README.md)".freeze
+SNIPPET = "# Summary\n\n## Topics Studied\n\n- topic\n\n## Resources Used\n\n[resource](resource_link)\n\n## Links to Projects & Notes\n\n[project_or_gist](project_or_gist_link)\n\n[Continue to Day #](./../Day%20#{day_range[0]}/README.md)".freeze
 
 # take in an array
 def create_daily_files(arr)
